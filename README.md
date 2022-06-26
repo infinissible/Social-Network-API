@@ -48,10 +48,12 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Demonstration
 
-`Start server`
+### Start server
 
 <img src="./assets/ch18-server.gif" alt="start-server" /></br>
 Video link: https://drive.google.com/file/d/1CFb-JpyaUi8DtkF8HV6Uk9Usa60qkX3I/view
+
+### Users
 
 `/api/users`
 
@@ -60,6 +62,8 @@ Video link: https://drive.google.com/file/d/1CFb-JpyaUi8DtkF8HV6Uk9Usa60qkX3I/vi
 <img src="./assets/ch18-user.gif" alt="user" /></br>
 Video link: https://drive.google.com/file/d/1V8xKM4xx2BCjqyvIL0HxDp4zEOfM5FzE/view
 
+### Friends
+
 `/api/users/:userId/friends/:friendId`
 
 - `POST` a new friend to a user's friend list, `DELETE` a friend from a user's friend list
@@ -67,12 +71,16 @@ Video link: https://drive.google.com/file/d/1V8xKM4xx2BCjqyvIL0HxDp4zEOfM5FzE/vi
 <img src="./assets/ch18-friend.gif" alt="friend" /></br>
 Video link: https://drive.google.com/file/d/1VVud7UgGvA0oeJ_47IggT4NRFG1BNrTa/view
 
+### Thoughts
+
 `/api/thoughts/`
 
 - `GET` all thoughts, and a thought by id, `POST` a new thought, `PUT` to update a thought by id, `DELETE` a thought by
 
 <img src="./assets/ch18-thought.gif" alt="thought" /></br>
 Video link: https://drive.google.com/file/d/1fOv0lKfgyrhVDtWogTwu4qz3F6faALKE/view
+
+### Reactions
 
 `/api/thoughts/:thoughtId/reactions`
 
